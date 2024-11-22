@@ -45,7 +45,7 @@ def create_topology(args):
 
     net = Mininet_wifi(controller=Controller)
 
-    wifi_ssid = 'Five5G_Wifi'
+    wifi_ssid = 'Five5G_Net'
 
     kwargs = {
         'ssid': wifi_ssid,
